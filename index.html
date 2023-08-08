@@ -17,7 +17,7 @@
 
         #screen {
             width: 100%;
-            height: 2000px;
+            height: 5000px;
             border: 1px solid red;
         }
 
@@ -155,13 +155,14 @@
 
         #articles>div:nth-child(1)>button>i {
             background-color: rgb(171, 168, 168);
+            color: #000000;
             margin-left: 20px;
         }
 
 
         #articles>div:nth-child(2) {
             width: 68%;
-            border: 1px solid white;
+            /* border: 1px solid white; */
             height: 500px;
             display: flex;
             justify-content: space-between;
@@ -180,11 +181,122 @@
             background-image: url("https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image6.jpg");
         }
 
+        #rightA {
+            display: none;
+            height: 80%;
+            width: 85%;
+            margin: 10% 7.5% 10% 7.5%;
+            /* border: 5px solid red; */
+            background-color: #adadad;
+        }
+
+        #rightA>div:nth-child(1) {
+            background-color: #adadad;
+            width: 85%;
+            height: 60%;
+            margin: 0% 7.5% 0% 7.5%;
+            padding-top: 15%;
+        }
+
+        #rightA>div:nth-child(1)>div {
+            background-image: url("https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image2.jpg");
+
+        }
+
+        #rightA button {
+            width: 150px;
+            height: 35px;
+            background-color: #adadad;
+            border: none;
+            border-radius: 35px;
+            color: black;
+            margin-top: 100px;
+            margin-left: 80px;
+        }
+
+        #rightA i {
+            background-color: #adadad;
+            margin-left: 8px;
+            color: black;
+        }
+
+        #rightA>div:nth-child(2) {
+            margin-left: 10%;
+            width: 80%;
+            background-color: #adadad;
+        }
+
+        #rightA>div:nth-child(2)>p {
+            padding-top: 15px;
+            background-color: #adadad;
+            color: black;
+        }
+
+
+        #rightB {
+            display: none;
+            height: 80%;
+            width: 85%;
+            margin: 10% 7.5% 10% 7.5%;
+            /* border: 5px solid red; */
+            background-color: #adadad;
+        }
+
+        #rightB>div:nth-child(1) {
+            background-color: #adadad;
+            width: 85%;
+            height: 60%;
+            margin: 0% 7.5% 0% 7.5%;
+            padding-top: 15%;
+        }
+
+        #rightB>div:nth-child(1)>div {
+            background-image: url("https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image9.jpg")
+        }
+
+        #rightB button {
+            width: 150px;
+            height: 35px;
+            background-color: #adadad;
+            border: none;
+            border-radius: 35px;
+            color: black;
+            margin-top: 100px;
+            margin-left: 80px;
+        }
+
+        #rightB i {
+            background-color: #adadad;
+            margin-left: 8px;
+            color: black;
+        }
+
+
+        #rightB>div:nth-child(2) {
+            margin-left: 10%;
+            width: 80%;
+            background-color: #adadad;
+        }
+
+        #rightB>div:nth-child(2)>p {
+            padding-top: 15px;
+            background-color: #adadad;
+            color: black;
+        }
+
+        #rightAParent:hover>div:nth-child(1) {
+            display: block;
+        }
+
+        #rightBParent:hover>div:nth-child(1) {
+            display: block;
+        }
+
         #statement {
             width: 85%;
             margin: auto;
-            height: 200px;
-            /* border: 1px solid green; */
+            height: 230px;
+            border: 1px solid green;
             display: flex;
             justify-content: space-between;
             margin-top: 160px;
@@ -204,7 +316,7 @@
         #statement>div:nth-child(2) {
             /* border: 1px solid white; */
             width: 1px;
-            height: 200px;
+            height: 170px;
             color: #b0b5b6;
             border-block: 0.1px solid;
             writing-mode: vertical-rl;
@@ -220,6 +332,41 @@
             color: #b0b5b6;
             font-size: 18px;
             padding-left: 50px;
+        }
+
+        #webimg {
+            width: 100%;
+            height: 250px;
+            border: 1px solid red;
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #webimg>div:nth-child(1) {
+            width: 14%;
+            border: 1px solid white;
+            margin-left: 70px;
+        }
+
+        #webimg>div:nth-child(1)>h1 {
+            font-weight: 100;
+            letter-spacing: 2px;
+            font-family: 'Space Grotesk', sans-serif;
+            margin-top: 10px;
+        }
+
+        #webimg>div:nth-child(1)>p {
+            margin-top: 30px;
+            font-size: 18px;
+            font-family: 'Space Grotesk', sans-serif;
+            line-height: 25px;
+            color: #b6b6b6;
+        }
+
+        #webimg>div:nth-child(2) {
+            border: 1px solid green;
+            width: 80%;
         }
 
         /* Tablet or Mobile View */
@@ -259,6 +406,40 @@
                 font-weight: lighter;
                 padding-top: 30px;
                 letter-spacing: 5px;
+            }
+
+            #articles {
+                width: 90%;
+                flex-wrap: wrap;
+            }
+
+            #articles>div:nth-child(1) {
+                width: 100%;
+                height: 350px;
+                flex-wrap: wrap;
+                margin-top: 50px;
+
+            }
+
+            #articles>div:nth-child(2) {
+                /* border: 1px solid red; */
+                flex-wrap: wrap;
+                width: 100%;
+            }
+
+            #articles>div:nth-child(2)>div:nth-child(1) {
+                flex-direction: column;
+                background-image: url("https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image6.jpg");
+                display: flex;
+                width: 48%;
+                margin-right: 20px;
+            }
+
+            #articles>div:nth-child(2)>div:nth-child(2) {
+                flex-direction: column;
+                background-image: url("https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image6.jpg");
+                display: flex;
+                width: 48%;
             }
 
         }
@@ -303,9 +484,34 @@
                     enim inventore iure minus nostrum nulla numquam quam quia quod, reprehenderit. </p>
                 <button>Read more <i class="fa-solid fa-play"></i></button>
             </div>
+
             <div>
-                <div>right 1</div>
-                <div>right 2</div>
+                <div id="rightAParent">
+                    <div id="rightA">
+                        <div>
+                            <div style="width: 100%; height: 100%;">
+                                <button>See card <i class="fa-solid fa-play"></i></button>
+                            </div>
+                        </div>
+                        <div>
+                            <p>Mobile phone</p>
+                            <p>$100.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="rightBParent">
+                    <div id="rightB">
+                        <div>
+                            <div style="width: 100%; height: 100%;">
+                                <button>See card <i class="fa-solid fa-play"></i></button>
+                            </div>
+                        </div>
+                        <div>
+                            <p>Mobile phone</p>
+                            <p>$100.00</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -315,19 +521,20 @@
             </div>
             <div></div>
             <div>
-                <p>Numquam, quo recusandae sunt voluptates. Assumenda cumque dolorem eius excepturi inventore laboriosam
+                <p>Numquam, quo recusandae sunt voluptates. Assumenda cumque dolorem eius excepturi inventore
+                    laboriosam
                     provident quam suscipit voluptate voluptates.</p>
             </div>
         </div>
 
-        <div>
-            <div>left</div>
-            <div>right
-                <img src="https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image4.jpg" alt="">
-                <img src="https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image5.jpg" alt="">
-                <img src="https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image8.jpg" alt="">
-                <img src="https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image12.jpg" alt="">
-                <img src="https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image15.jpg" alt="">
+        <div id="webimg">
+            <div>
+                <h1>Our website</h1>
+                <p>Follow us</br>
+                    tech@blog.com</p>
+            </div>
+            <div>
+                <img src="" alt="">
             </div>
         </div>
     </div>
