@@ -152,13 +152,11 @@
             font-size: 18px;
         }
 
-
         #articles>div:nth-child(1)>button>i {
             background-color: rgb(171, 168, 168);
             color: #000000;
             margin-left: 20px;
         }
-
 
         #articles>div:nth-child(2) {
             width: 68%;
@@ -173,7 +171,6 @@
             height: 100%;
             background-image: url("https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image6.jpg");
         }
-
 
         #articles>div:nth-child(2)>div:nth-child(2) {
             width: 47%;
@@ -231,7 +228,6 @@
             color: black;
         }
 
-
         #rightB {
             display: none;
             height: 80%;
@@ -270,7 +266,6 @@
             color: black;
         }
 
-
         #rightB>div:nth-child(2) {
             margin-left: 10%;
             width: 80%;
@@ -293,11 +288,11 @@
 
         #para {
             width: 100%;
-            height: 250px;
-            border: 1px solid red;
+            height: 200px;
+            /* border: 1px solid red; */
             display: flex;
-            justify-content: space-between;
-            margin-top: 80px;
+            justify-content: space-around;
+            margin-top: 140px;
         }
 
         #para h1 {
@@ -312,7 +307,7 @@
         }
 
         #para .br-1 {
-            height: 200px;
+            height: 150px;
             border: 1px solid gray;
             margin-top: 25px;
         }
@@ -322,22 +317,23 @@
         }
 
         #para p {
-            width: 35%;
+            width: 30%;
             height: 150px;
-            border: 1px solid white;
-            margin-left: 50px;
+            /* border: 1px solid white; */
             font-size: 18px;
             font-weight: 100;
-            margin-top: 90px;
+            color: #adadad;
+            margin-right: 50px;
+            margin-top: 40px;
 
         }
 
         #info {
-            width: 90%;
+            width: 95%;
             height: 250px;
-            border: 1px solid white;
+            /* border: 1px solid white; */
             margin: auto;
-            margin-top: 50px;
+            margin-top: 130px;
             display: flex;
             justify-content: space-between;
             color: white;
@@ -345,15 +341,23 @@
         }
 
         #info .web {
-            width: 15%;
+            width: 18%;
             height: 100%;
-            border: 1px solid white;
+            /* border: 1px solid white; */
+            letter-spacing: 1px;
+        }
+
+        #info .web>h3 {
+            color: #adadad;
+            margin-top: 15px;
+            font-size: 18px;
+            line-height: 28px;
         }
 
         #info .pic {
             width: 82%;
             height: 100%;
-            border: 1px solid white;
+            /* border: 1px solid white; */
             display: flex;
             justify-content: space-between;
         }
@@ -361,7 +365,7 @@
         #info .pic>div {
             width: 18.5%;
             height: 100%;
-            border: 1px solid white;
+            /* border: 1px solid white; */
         }
 
         #info .pic>div img {
@@ -372,18 +376,17 @@
         }
 
         #info .pic>div button {
-            width: 150px;
+            width: 120px;
             height: 40px;
             border-radius: 20px;
             text-transform: capitalize;
-            font-size: 18px;
+            font-size: 15px;
             border: none;
-
-
-
             opacity: 0;
             transition: 0.02s ease-out;
             transform: translateY(-10px);
+            color: #000000;
+            letter-spacing: 1px;
 
         }
 
@@ -392,6 +395,75 @@
             background-image: linear-gradient(99deg, rgb(150, 150, 150) 30%, rgb(200, 200, 200) 60%, rgb(200, 200, 200) 100%);
         }
 
+        #about {
+            width: 100%;
+            height: 225px;
+            /* border: 1px solid white; */
+            margin-top: 180px;
+            color: white;
+            align-items: center;
+
+        }
+
+        #about>div:nth-child(1) {
+            align-items: center;
+            font-weight: 100;
+            padding-top: 60px;
+            font-size: 80px;
+            padding-top: 10px;
+            width: 100%;
+            height: 112.5px;
+            border-top: 0.001px solid gray;
+            border-bottom: 0.001px solid gray;
+
+        }
+
+        #about>div:nth-child(2) {
+            font-weight: 100;
+            font-size: 80px;
+            padding-top: 10px;
+            align-items: center;
+            padding-left: 52%;
+            width: 702px;
+            height: 112.5px;
+            /* border-top: 0.001px solid  gray; */
+            border-bottom: 0.001px solid gray;
+
+        }
+
+        #prod {
+            width: 90%;
+            height: 450px;
+            /* border: 1px solid white; */
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 190px;
+        }
+
+        #prod .pr1 {
+            width: 31%;
+            height: 100%;
+            /* border: 1px solid white; */
+        }
+
+        #prod .pr1>div:nth-child(1) img {
+            width: 100%;
+            height: 350px;
+            /* border: 1px solid white; */
+            object-fit: cover;
+
+        }
+
+        #prod .pr1>div:nth-child(2) {
+            width: 100%;
+            height: 100px;
+            /* border: 1px solid white; */
+        }
+
+        #prod .pr1>div:nth-child(2) h3, h1 {
+            color: white;
+        }
 
         /* Tablet or Mobile View */
         @media screen and (max-width : 990px) {
@@ -551,34 +623,85 @@
         <div id="info">
             <div class="web">
                 <h1 style="font-size: 40px;font-weight: 100;padding-bottom: 10px;">Our website</h1>
-                <h3>Follow us
-
+                <h3>Follow us<br>
                     tech@blog.com
-
                 </h3>
             </div>
+
             <div class="pic">
                 <div><img src="https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image4.jpg" alt="">
-                    <div style="align-items: center;margin-top: -150px;margin-left: 30%;"><button>see card</button>
+                    <div style="align-items: center;margin-top: -150px;margin-left: 40px;"><button>see card</button>
                     </div>
                 </div>
                 <div><img src="https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image5.jpg" alt="">
-                    <div style="align-items: center;margin-top: -150px;margin-left: 30%;"><button>see card</button>
+                    <div style="align-items: center;margin-top: -150px;margin-left: 40px"><button>see card</button>
                     </div>
                 </div>
                 <div><img src="https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image8.jpg" alt="">
-                    <div style="align-items: center;margin-top: -150px;margin-left: 30%;"><button>see card</button>
+                    <div style="align-items: center;margin-top: -150px;margin-left: 40px;"><button>see card</button>
                     </div>
                 </div>
                 <div><img src="https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image12.jpg" alt="">
-                    <div style="align-items: center;margin-top: -150px;margin-left: 30%;"><button>see card</button>
+                    <div style="align-items: center;margin-top: -150px;margin-left: 40px;"><button>see card</button>
                     </div>
                 </div>
                 <div class="if-1"><img src="https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image15.jpg"
                         alt="">
-                    <div style="align-items: center;margin-top: -150px;margin-left: 30%;"><button>see card</button>
+                    <div style="align-items: center;margin-top: -150px;margin-left: 40px;"><button>see card</button>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <div id="about">
+            <div>Popular-Tech-Blog</div>
+            <div>Useful-Tech-Blog</div>
+        </div>
+
+        <div id="prod">
+            <div class="pr1">
+                <div><img src="https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image10.jpg" alt="">
+                </div>
+                <div>
+                    <h3 style="font-weight: 100;font-size: 17px;padding-top: 10px;">
+                        <u> MOBILE</u>
+                        <u>EARBUDS</u>
+                    </h3>
+                    <h1 style="font-weight: 100;padding-top: 10px;">Smartphones</h1>
+                </div>
+            </div>
+            <div class="pr1">
+                <div><img src="https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image8.jpg" alt=""></div>
+                <div>
+                    <h3 style="font-weight: 100;font-size: 17px;padding-top: 10px;">
+                        <u> MOBILE</u>
+                        <u>EARBUDS</u>
+                    </h3>
+                    <h1 style="font-weight: 100;padding-top: 10px;">Bubs</h1>
+                </div>
+            </div>
+            <div class="pr1 pr2">
+                <div><img src="https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image2.jpg" alt=""></div>
+                <div>
+                    <h3 style="font-weight: 100;font-size: 17px;padding-top: 10px;">
+                        <u> MOBILE</u>
+                        <u>EARBUDS</u>
+                    </h3>
+                    <h1 style="font-weight: 100;padding-top: 10px;">Smart watch</h1>
+                </div>
+            </div>
+        </div>
+
+        <div id="news">
+            <div class="nw-p" style="color: white;padding: 100px 7% 150px 7%;font-size: 20px;text-align: center;">
+                <h1 style="font-weight: 100;padding-bottom: 50px;">Read our <br>
+                    news
+                </h1>
+                <p>Consectetur adipisicing elit. Architecto atque culpa eius, error est expedita facilis fuga impedit
+                    inventore labore laborum neque obcaecati odit, placeat quo quod repellendus tenetur voluptates.</p>
+            </div>
+            <div class="nw-1">
+                <div style="align-items: center;margin-top: 240px;margin-left: 350px;"><button>read news</button></div>
             </div>
         </div>
     </div>
